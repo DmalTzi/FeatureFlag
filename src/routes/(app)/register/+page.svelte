@@ -20,7 +20,7 @@
                     <Input type="password" name="password"/>
                 </div>
                 <div class="m-[1rem]">
-                    <Input type="submit" value="login"/>
+                    <Input type="submit" value="register"/>
                 </div>
                 <div class="flex justify-center content-center">
                     <a href="/login" class="text-xs text-gray-700 underline">login</a>

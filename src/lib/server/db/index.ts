@@ -5,7 +5,7 @@ import { env } from '$env/dynamic/private';
 import fs from 'node:fs';
 
 
-if(!fs.existsSync("_munbun_")) fs.mkdirSync("_mydb_")
+if(!fs.existsSync("_mydb_")) fs.mkdirSync("_mydb_")
 if (!env.DATABASE_URL) throw new Error('DATABASE_URL is not set');
 
 const client = new Database(env.DATABASE_URL);
